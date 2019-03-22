@@ -971,10 +971,6 @@ sensor.dark_sky_summary:
     ? entities[e].state + entities[e].attributes['unit_of_measurement']
     : null;
   theme: card-secondary-title
-sensor.outside_humidity:
-  friendly_name: Outside
-sensor.outside_temperature:
-  friendly_name: Outside
 sensor.weather_details:
   custom_ui_state_card: state-card-value_only
 sensor.wind_speed:
